@@ -1,0 +1,189 @@
+body{
+    padding: 120px;
+    background-color: #83aef8;
+}
+#inputfeild {
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    background-color: #ffffff;
+    position: relative;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#fline {
+    display: flex;
+}
+
+#buttons {
+
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#clearinput {
+
+    width: 180px;
+    background-color: #d90429;
+    height: 60px;
+    font-size: 20px;
+}
+
+#divideinput {
+    width: 60px;
+    background-color: #2b2d42;
+    color: white;
+    height: 60px;
+    font-size: 20px;
+}
+
+#multiinput {
+    width: 60px;
+    background-color: #2b2d42;
+    color: white;
+    height: 60px;
+    font-size: 20px;
+}
+
+#seveninput {
+    width: 75px;
+    font-size: 20px;
+    height: 60px;
+    color: white;
+    background-color: #2b2d42;
+}
+
+#eghiinput {
+    width: 75px;
+    font-size: 20px;
+    height: 60px;
+    color: white;
+   background-color: #2b2d42;
+}
+
+#nineinput {
+    width: 75px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: #2b2d42;
+}
+
+#subtractinput {
+    position: absolute;
+    width: 75px;
+    font-size: 20px;
+    height: 80px;
+    color: white;
+    background-color: #2b2d42;
+}
+
+#fourinput {
+    width: 75px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: #2b2d42;
+}
+
+#fiveinput {
+    width: 75px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: #2b2d42;
+}
+
+#sixinput {
+    width: 75px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: #2b2d42;
+}
+
+#oneinput {
+    width: 75px;
+    font-size: 20px;
+    height: 60px;
+    color: white;
+    background-color: #2b2d42;
+}
+
+#twoinput {
+    width: 75px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: #2b2d42;
+}
+
+#threeinput {
+    width: 75px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: #2b2d42;
+}
+
+#zeroinput {
+    width: 75px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: #2b2d42;
+}
+
+#dzeroinput {
+    width: 75px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: #2b2d42;
+}
+
+#dotinput {
+    width: 75px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: #2b2d42;
+}
+
+#equalinput {
+    font-size: 20px;
+    width: 75px;
+    height: 60px;
+    color: white;
+    background-color: #ef233c;
+}
+
+#colspan {
+    position: relative;
+    background-color: #2b2d42;
+
+}
+
+#addinput {
+    position: absolute;
+    font-size: 20px;
+
+    height: 120px;
+    width: 75px;
+    background-color: #2b2d42;
+    color: white;
+
+}
+
+#input {
+    position: absolute;
+    height: 100%;
+    font-size: 20px;
+
+    width: 292px;
+}

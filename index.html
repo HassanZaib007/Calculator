@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="inputfeild">
+        <div id="input" type="text"></div>
+    </div>
+    <div id="buttons">
+        <div id="fline">
+            <button id="clearinput" onclick="clearr()">c</button>
+            <button id="divideinput" onclick="addvalue('/')">/</button>
+            <button id="multiinput" onclick="addvalue('*')">*</button>
+        </div>
+        <div id="fline">
+            <button id="seveninput" onclick="addvalue('7')">7</button>
+            <button id="eghiinput" onclick="addvalue('8')">8</button>
+            <button id="nineinput" onclick="addvalue('9')">9</button>
+            <div id="colspan">
+                <button id="subtractinput" onclick="addvalue('-')">-</button>
+            </div>
+        </div>
+        <div id="fline">
+            <button id="fourinput" onclick="addvalue('4')">4</button>
+            <button id="fiveinput" onclick="addvalue('5')">5</button>
+            <button id="sixinput" onclick="addvalue('6')">6</button>
+            <div id="colspan">
+                <button id="addinput" onclick="addvalue('+')">
+                    +</button>
+            </div>
+        </div>
+        <div id="fline">
+            <button id="oneinput" onclick="addvalue('1')">1</button>
+            <button id="twoinput" onclick="addvalue('2')">2</button>
+            <button id="threeinput" onclick="addvalue('3')">3</button>
+
+        </div>
+        <div id="fline">
+            <button id="zeroinput" onclick="addvalue('0')">0</button>
+            <button id="dzeroinput" onclick="addvalue('00')">00</button>
+            <button id="dotinput" onclick="addvalue('.')">.</button>
+            <button id="equalinput" onclick="calc()">=</button>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+
+</html>
